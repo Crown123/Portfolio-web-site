@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stefan Sekulic</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <!-- start header -->
+    <header>
+        <div class="menu-toggler">
+            <div class="bar half start"></div>
+            <div class="bar"></div>
+            <div class="bar half end"></div>
+        </div>
+        <nav class="top-nav">
+            <ul class="nav-list">
+                <li>
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li>
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li>
+                    <a href="#knowledge" class="nav-link">Knowledge</a>
+                </li>
+                <li>
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#timeline" class="nav-link">My path</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="landing-text">
+                <h1>Stefan Sekulic</h1>
+                <h6>Junior Web developer</h6>
+        </div>
+    </header>
+
+    <section class="about" id="about">
+        <div class="container fix">
+            <div class="profile-img" data-aos="fade-right" data-aos-delay="250">
+                <img src="./images/profilna-slika.jpg" alt="mojaSlika" style="height: 80vh; width: auto">
+            </div>
+            <div class="about-details" data-aos="fade-left" data-aos-delay="500">
+                <div class="about-heading">
+                    <h1>About</h1>
+                    <h6>Myself</h6>
+                </div>
+                <p>Hello everyone, my name is Stefan Sekulić. I'm 21 years old and I'm looking for an internship
+                    program for an inexperienced Front-end developer. My home town is Loznica but I'm currently 
+                    living in Belgrade. My goal is to learn as much as possible about web development. 
+                    I plan on learning JavaScript framework (started learning VueJS ), I want to know more about Git and version control
+                    as well as deployment of web sites and slowly start learning more about Back-end side of things.
+                    In free time I like to hang out with friends, listen to music, play games and a lot different sports...
+                </p>
+                <div class="social-media">
+                        <ul class="nav-list">
+                            <li>
+                                <a href="https://facebook.com/" class="icon-link">
+                                    <i class="fab fa-facebook-square"></i>
+                                </a>
+                                <a href="https://twitter.com/" class="icon-link">
+                                    <i class="fab fa-twitter-square"></i>
+                                </a>
+                                <a href="https://www.instagram.com/" class="icon-link">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="knowledge">
+        <div class="container">
+            <div class="section-heading" data-aos="fade-up" data-aos-delay="250">
+                <h1>Knowledge</h1>
+                <h6>What technologies I learnd so far </h6>
+            </div>
+            <div class="my-skills" data-aos="fade-in" data-aos-delay="250">
+                <div class="skill">
+                    <div class="icon-container">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h1>HTML</h1>
+                </div>
+                <div class="skill"  data-aos="fade-in" data-aos-delay="500">
+                    <div class="icon-container">
+                        <i class="fab fa-css3"></i>
+                    </div>
+                    <h1>CSS</h1>
+                </div>
+                <div class="skill"  data-aos="fade-in" data-aos-delay="750">
+                    <div class="icon-container">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h1>JAVA SCRIPT</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-heading" data-aos="fade-up" data-aos-delay="250">
+                <h1>Portfolio</h1>
+                <h6>View some of my recent work</h6>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-img has-margin-right"  data-aos="fade-right" data-aos-delay="250">
+                    <a href="https://crown123.github.io/bazaFilmovaiSerija/html/index.html"><img src="./images/ssdatabase.png" alt="Movie database"></a>
+                </div>
+                <div class="portfolio-description"  data-aos="fade-left" data-aos-delay="500">
+                    <h1>Database</h1>
+                    <p>This web application uses TMDb-Api to display the most popular movies and series,
+                        movies that are being played in cinemas right now and enables search of movies and series by title.
+                        I plan on adding a lot of new stuff to this project :).
+                    </p>
+                    <a href="https://github.com/Crown123/bazaFilmovaiSerija" class="cta">View Details</a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="250">
+                    <h1>Demo application</h1>
+                    <p>Single page demo application built with html/css and bootstrap 4. Also has an option of
+                        Login and Register. When you register or login you can add, delete and edit the list of users.
+                        This  part of the application is built with VueJS.
+                        I haven't yet added it to my github.
+                    </p>
+                    <a href="#" class="cta">View Details</a>
+                </div>
+                <div class="portfolio-img" data-aos="fade-left" data-aos-delay="500">
+                    <img src="./images/ssdemo.png" alt="Demo app">
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="250">
+                    <img src="./images/kiklop.png" alt="Kiklop">
+                </div>
+                <div class="portfolio-description" data-aos="fade-left" data-aos-delay="500">
+                    <h1>Kiklop</h1>
+                    <p>This is a website for ordering food from a fast food restaurant called Kiklop. It is still not finished.</p>
+                    <a href="#" class="cta">View Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="experience" id="timeline">
+        <div class="container">
+            <div class="section-heading" data-aos="fade-up" data-aos-delay="250">
+                <h1>MY Path</h1>
+                <h6>So far I have no work experience</h6>
+            </div>
+            <div class="timeline" data-aos="fade-up" data-aos-delay="500">
+                <ul>
+                    <li class="date" data-date="2018 - 2019">
+                        <h1>Front-end Development</h1>
+                        <p>
+                            About two months ago I successfully finished six months long Front-end Development course in Comtrade,
+                            As part of the course I had previously completed I went in company called Software Nation for 4 weeks.
+                            where I was supposed to get an idea of ​​what it looks like to work in real work environment.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+            <div class="container">
+                <div class="section-heading" data-aos="fade-up" data-aos-delay="250">
+                    <h1>Contact</h1>
+                    <h6>Send me an e-mail to: sekulicstefan97@gmail.com</h6>
+                </div>
+                <form action="mailto:sekulicstefan97@gmail.com" method="get" enctype="text/plain" data-aos="fade-up" data-aos-delay="500">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name..." required>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email..." required>
+                    <label for="subject">Your Message:</label>
+                    <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+                    <input type="submit" value="Send">
+                    <input type="submit" value="Reset" onclick="reset()"> 
+                </form>
+            </div>
+    </section>
+
+    <footer class="copyright">
+        <div class="up" id="up">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+        <p>&copy: 2019 Stefan Sekulic</p>
+        <div class="githubLink">
+            <p>GitHub link: </p>
+            <a href="https://github.com/Crown123"><img src="./images/download.svg" alt="github link"></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
